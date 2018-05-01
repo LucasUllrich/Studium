@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="testbild_synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1519653342">
+  <File Type="VDS-TIMING-PB" Name="testbild_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="testbild_timing_summary_synth.rpt"/>
+  <File Type="RDS-RDS" Name="testbild.vds"/>
+  <File Type="PA-TCL" Name="testbild.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="testbild_drc_synth.rpt"/>
+  <File Type="RDS-UTIL" Name="testbild_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="testbild_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="testbild.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/testbild">
+    <File Path="$PPRDIR/../testbild/testbild.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="testbild"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/testbild">
+    <File Path="$PPRDIR/../testbild/testbild.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="testbild"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

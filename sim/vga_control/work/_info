@@ -1,0 +1,144 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/lullrich/Dokumente/Studium/4_Semester/Chip_Design/Project/VGA_Controller/sim/vga_control
+Etb_vga_control
+w1519667158
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+8../../tb/tb_vga_control.vhd
+F../../tb/tb_vga_control.vhd
+l0
+L21
+VCC24P2=eT4e>EC_i7iPmK3
+!s100 dPMzZckJJVzPl_fGDg@kg1
+Z3 OV;C;10.5b;63
+32
+Z4 !s110 1525084873
+!i10b 1
+Z5 !s108 1525084873.000000
+!s90 -reportprogress|300|../../tb/tb_vga_control.vhd|
+!s107 ../../tb/tb_vga_control.vhd|
+!i113 1
+Z6 tExplicit 1 CvgOpt 0
+Asim
+w1519821931
+Z7 DEx4 work 14 tb_vga_control 0 22 CC24P2=eT4e>EC_i7iPmK3
+Z8 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+8../../tb/tb_vga_control_sim.vhd
+F../../tb/tb_vga_control_sim.vhd
+l56
+L22
+V00eK<8Yni^AEV5cL]?7Uz2
+!s100 [Q>8O1Dha35PJI=78mNMO1
+R3
+32
+R4
+!i10b 1
+R5
+!s90 -reportprogress|300|../../tb/tb_vga_control_sim.vhd|
+!s107 ../../tb/tb_vga_control_sim.vhd|
+!i113 1
+R6
+Ctb_vga_control_sim_cfg
+etb_vga_control
+asim
+Z9 DEx4 work 11 vga_control 0 22 [ed<kg]_:Tg4I>QzX[hnO2
+DCx4 work 19 vga_control_rtl_cfg 0 22 OUL[@LclHRheZgzE=iIH40
+R8
+DAx4 work 14 tb_vga_control 3 sim 22 00eK<8Yni^AEV5cL]?7Uz2
+R7
+R1
+R2
+w1519670001
+R0
+8../../tb/tb_vga_control_sim_cfg.vhd
+F../../tb/tb_vga_control_sim_cfg.vhd
+l0
+L21
+VnI6W^k[c`kjHESBNm>_PH3
+!s100 oR^kOM^KkjXPe<i9S33Xe1
+R3
+32
+R4
+!i10b 1
+R5
+!s90 -reportprogress|300|../../tb/tb_vga_control_sim_cfg.vhd|
+!s107 ../../tb/tb_vga_control_sim_cfg.vhd|
+!i113 1
+R6
+Evga_control
+w1519821481
+R1
+R2
+R0
+8../../vhdl/vga_control.vhd
+F../../vhdl/vga_control.vhd
+l0
+L21
+V[ed<kg]_:Tg4I>QzX[hnO2
+!s100 If55j[;]TWmh5XC7Yd^Q<1
+R3
+32
+R4
+!i10b 1
+R5
+!s90 -reportprogress|300|../../vhdl/vga_control.vhd|
+!s107 ../../vhdl/vga_control.vhd|
+!i113 1
+R6
+Artl
+w1525084866
+R9
+R8
+R1
+R2
+8../../vhdl/vga_control_rtl.vhd
+F../../vhdl/vga_control_rtl.vhd
+l52
+L22
+VeP>:OfSHCTK62iSNbNg_e1
+!s100 U`fF`D8dU5E^LfVS?@mK^1
+R3
+32
+R4
+!i10b 1
+R5
+!s90 -reportprogress|300|../../vhdl/vga_control_rtl.vhd|
+!s107 ../../vhdl/vga_control_rtl.vhd|
+!i113 1
+R6
+Cvga_control_rtl_cfg
+evga_control
+artl
+R8
+DAx4 work 11 vga_control 3 rtl 22 eP>:OfSHCTK62iSNbNg_e1
+R1
+R2
+R9
+w1519667101
+R0
+8../../vhdl/vga_control_rtl_cfg.vhd
+F../../vhdl/vga_control_rtl_cfg.vhd
+l0
+L18
+VOUL[@LclHRheZgzE=iIH40
+!s100 Yk0bEQSH7_WV]VP_eV14:0
+R3
+32
+R4
+!i10b 0
+R5
+!s90 -reportprogress|300|../../vhdl/vga_control_rtl_cfg.vhd|
+!s107 ../../vhdl/vga_control_rtl_cfg.vhd|
+!i113 1
+R6

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="testbild_synth_1" LaunchDir="/home/lullrich/Dokumente/Studium/4_Semester/Chip_Design/Project/VGA_Controller/generate/testbild/managed_ip_project/managed_ip_project.runs/testbild_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

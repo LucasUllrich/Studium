@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Mon Feb 26 14:55:43 2018
+# Process ID: 15539
+# Current directory: /home/lullrich/Dokumente/Studium/4_Semester/Chip_Design/Project/VGA_Controller/generate/testbild/managed_ip_project/managed_ip_project.runs/testbild_synth_1
+# Command line: vivado -log testbild.vds -mode batch -messageDb vivado.pb -notrace -source testbild.tcl
+# Log file: /home/lullrich/Dokumente/Studium/4_Semester/Chip_Design/Project/VGA_Controller/generate/testbild/managed_ip_project/managed_ip_project.runs/testbild_synth_1/testbild.vds
+# Journal file: /home/lullrich/Dokumente/Studium/4_Semester/Chip_Design/Project/VGA_Controller/generate/testbild/managed_ip_project/managed_ip_project.runs/testbild_synth_1/vivado.jou
+#-----------------------------------------------------------
+source testbild.tcl -notrace
